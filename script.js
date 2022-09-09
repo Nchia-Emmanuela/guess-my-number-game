@@ -44,6 +44,7 @@ document.querySelector('.again').addEventListener('click', () => {
   secreteNumber = Math.trunc(Math.random() * 20) + 1;
   console.log(secreteNumber);
   document.querySelector('.score').textContent = score;
+  // reset game
   setMessage('Start guessing...');
   document.querySelector('body').style.backgroundColor = '#222';
   document.querySelector('.number').style.width = '15rem';
