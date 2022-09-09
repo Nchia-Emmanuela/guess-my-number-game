@@ -38,6 +38,7 @@ document.querySelector('.check').addEventListener('click', () => {
   } 
 });
 
+// again button
 document.querySelector('.again').addEventListener('click', () => {
   score = 20;
   secreteNumber = Math.trunc(Math.random() * 20) + 1;
